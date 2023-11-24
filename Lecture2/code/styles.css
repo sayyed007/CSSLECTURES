@@ -1,0 +1,24 @@
+/* This is a single-line comment */
+h1 {
+    color: blue; /* Change the color of the heading to blue */
+  }
+  
+  p {
+    font-size: 14px; /* Set the font size of paragraphs to 14 pixels */
+  }
+
+  
+  /* 
+  This is a multi-line comment
+  It can span several lines
+  Great for longer explanations or notes
+*/
+h1 {
+    text-align: center; /* Center-align the heading */
+  }
+  
+  /* Let's make the text in paragraphs bold */
+  p {
+    font-weight: bold;
+  }
+  

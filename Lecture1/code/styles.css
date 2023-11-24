@@ -1,0 +1,10 @@
+/* This is a CSS comment - it won't affect your styles */
+h1 {
+    color: purple; /* Change the color of the heading to purple */
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif; /* Change the font of paragraphs */
+    font-size: 16px; /* Set the font size to 16 pixels */
+    color: #333; /* Set the color of paragraphs to a dark gray */
+  }

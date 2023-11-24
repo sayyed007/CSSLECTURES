@@ -1,0 +1,25 @@
+/* Border Style Example */
+div {
+    border-style: solid; /* This sets the border style to solid */
+  }
+  
+  /* Border Width Example */
+  p {
+    border-width: 2px; /* This sets the border width to 2 pixels */
+  }
+  
+  /* Border Color Example */
+  h1 {
+    border-color: blue; /* This sets the border color to blue */
+  }
+  
+  /* Border on Individual Sides Example */
+  img {
+    border-top: 1px solid red; /* This sets a 1-pixel solid red border on the top side of the image */
+  }
+  
+  /* Border Radius Example */
+  button {
+    border-radius: 10px; /* This adds a 10-pixel border radius, creating rounded corners for the button */
+  }
+  

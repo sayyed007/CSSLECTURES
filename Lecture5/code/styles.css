@@ -1,0 +1,23 @@
+/* Margin Example */
+div {
+    margin: 20px; /* This creates a margin of 20 pixels around the div */
+  }
+  
+  /* Padding Example */
+  p {
+    padding: 10px; /* This adds 10 pixels of padding inside the paragraph */
+  }
+  
+  /* Individual Margins and Padding Example */
+  h2 {
+    margin-top: 15px; /* Adds margin only to the top of the heading */
+    margin-bottom: 15px; /* Adds margin only to the bottom of the heading */
+    padding-left: 5px; /* Adds padding only to the left of the heading */
+  }
+  
+  /* Combining Margins and Padding Example */
+  section {
+    margin: 15px; /* Creates a margin of 15 pixels around the section */
+    padding: 10px; /* Adds 10 pixels of padding inside the section */
+  }
+  

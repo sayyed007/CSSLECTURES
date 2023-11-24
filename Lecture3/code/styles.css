@@ -1,0 +1,29 @@
+/* Built-In Colors Example */
+h1 {
+    color: red; /* Set the text color of heading to red */
+    background-color: lightblue; /* Set the background color of heading to light blue */
+    border: 2px solid green; /* Add a green border around the heading */
+  }
+
+  /* RGB Format Example */
+  p {
+    color: rgb(255, 0, 0); /* Set the text color of paragraphs to pure red */
+    background-color: rgb(0, 128, 255); /* Set the background color to a nice shade of blue */
+    border: 2px solid rgb(0, 255, 0); /* Add a border with a green shade */
+  }
+
+  /* RGBA Format Example */
+  div {
+    background-color: rgba(255, 0, 0, 0.5); /* Set a semi-transparent red background for the div */
+  }
+
+  /* Hexadecimal Notation Example */
+  span {
+    color: #ff00ff; /* Set the text color to a shade of purple using hexadecimal notation */
+  }
+
+  /* HSL and HSLA Example */
+  a {
+    color: hsl(120, 100%, 50%); /* Set the text color of links to a bright green using HSL */
+    background-color: hsla(0, 100%, 50%, 0.3); /* Set a semi-transparent red background for links using HSLA */
+  }

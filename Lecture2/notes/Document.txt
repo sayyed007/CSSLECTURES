@@ -1,0 +1,61 @@
+Introduction to CSS Comments:
+
+Hello again, everyone! Today, we're going to learn about something really cool in CSS – comments. Now, just like when you leave notes in the margins of your notebooks, we can leave notes for our computer to understand in CSS. These notes are called comments.
+
+What are CSS Comments?
+
+Comments in CSS are like secret messages for the computer to ignore. They don't affect how your webpage looks; they're just for you and other people who might read your code to understand what's going on.
+
+Why Use Comments?
+
+Comments are super helpful when you want to explain why you did something or remind yourself about a specific part of your code. It's like writing a little explanation so that when you come back to your code later, you won't be scratching your head, wondering what you were thinking.
+
+How to Write Single-line Comments:
+
+Writing a single-line comment in CSS is easy. You just use /* to start the comment, type your message, and then end it with */. It's like putting your note in a special box that the computer won't pay attention to.
+Example Code:
+
+Let's say you have the following CSS code:
+/* This is a single-line comment */
+h1 {
+  color: blue; /* Change the color of the heading to blue */
+}
+
+p {
+  font-size: 14px; /* Set the font size of paragraphs to 14 pixels */
+}
+In this example, the comments help you understand that the color of the heading is being changed to blue and the font size of paragraphs is set to 14 pixels.
+
+How to Write Multi-line Comments:
+
+Now, what if you want to leave a longer message, like a paragraph of notes? That's where multi-line comments come in handy. You start with /*, write your notes on as many lines as you need, and close with */.
+
+Example Code:
+/* 
+  This is a multi-line comment
+  It can span several lines
+  Great for longer explanations or notes
+*/
+h1 {
+  text-align: center; /* Center-align the heading */
+}
+
+/* Let's make the text in paragraphs bold */
+p {
+  font-weight: bold;
+}
+/* 
+  This is a multi-line comment
+  It can span several lines
+  Great for longer explanations or notes
+*/
+h1 {
+  text-align: center; /* Center-align the heading */
+}
+
+/* Let's make the text in paragraphs bold */
+p {
+  font-weight: bold;
+}
+In this example, the multi-line comment gives you the flexibility to write more extensive notes.
+

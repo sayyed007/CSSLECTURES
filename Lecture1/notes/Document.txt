@@ -1,0 +1,44 @@
+Introduction to CSS:
+Hello everyone! Today, we're diving into the wonderful world of CSS, which stands for Cascading Style Sheets. Now, don't let the fancy name intimidate you – CSS is like the magic paintbrush of the web, allowing us to make our websites look beautiful and stylish.
+
+What is CSS?
+CSS is a styling language that works hand-in-hand with HTML. While HTML structures the content of a webpage, CSS adds the colors, fonts, and layout to make it visually appealing.
+
+CSS Syntax:
+Now, let's talk about CSS syntax. Syntax is just a fancy word for the set of rules that we follow when writing CSS. It's like creating a recipe – you need the right ingredients and the right order to make it work.
+
+In CSS, we use selectors and declarations:
+
+Selectors: These are like the ingredients in our recipe. They select the HTML elements we want to style. For example, if you want to style all paragraphs on your page, you'd use the selector p.
+
+Declarations: These are the style rules we apply to the selected elements. Each declaration has a property (what you want to change) and a value (how you want to change it). For example, if you want to change the color of your paragraphs to blue, you'd use the declaration color: blue.
+
+Example Code:
+Let's put this into practice with a simple example. Imagine you have the following HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Stylish Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph on my page.</p>
+  <p>This is another paragraph.</p>
+</body>
+</html>
+Now, let's create a separate file called styles.css to add some style:
+
+/* This is a CSS comment - it won't affect your styles */
+h1 {
+  color: purple; /* Change the color of the heading to purple */
+}
+
+p {
+  font-family: 'Arial', sans-serif; /* Change the font of paragraphs */
+  font-size: 16px; /* Set the font size to 16 pixels */
+  color: #333; /* Set the color of paragraphs to a dark gray */
+}
+In this example, we're selecting the h1 (heading) and p (paragraph) elements and applying different styles to them.
